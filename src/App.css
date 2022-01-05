@@ -1,0 +1,44 @@
+
+*{
+    background-color: rgb(155, 221, 221);
+    /* text-align: center; */
+}
+
+.main{
+    text-align: center;
+}
+.main input{
+    padding: 5px;
+    width: 50%;
+}
+.main input:hover{
+    width: 50%;
+    background-color: bisque;
+    border-radius: 10px;
+    
+}
+.main button{
+    padding:5px 20px;
+    background-color: rgb(221, 112, 112);
+    border-radius: 5px;
+}
+.main button:hover{
+    background-color: aquamarine;
+}
+#d1{
+    display: flex;
+    padding: 5px;
+    width: auto;
+    background-color: rgb(216, 247, 204);
+}
+#d1 i{
+    /* margin-right: 5px; */
+    padding-right: 5px;
+}
+#d1 i:hover{
+    background-color: aquamarine;
+    padding: 5px;
+}
+li{
+    list-style-type: none;
+}
