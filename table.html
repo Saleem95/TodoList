@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <style>
+        .d1{
+            margin: 50px;
+            width: 700px;
+            height:700px ;
+        }
+        #tb{
+            border: 2px solid black;
+            margin-top: 30px;
+        }
+        .main{
+            display: flex;
+        }
+        .d2{
+            display: flex;
+        }
+        .b2{
+            border: 1px solid rgb(54, 54, 54);
+            padding: 1px 25px;
+            margin-left: 10px;
+            text-align: left;
+        }
+        .th1{
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        .tb1{
+            
+            border: 1px solid black;
+        }
+        /* .tr1{
+            padding-bottom: 40px;
+        } */
+        h5{
+            border-bottom:1px solid black ;
+        }
+        .d3{
+            text-align: end;
+            margin-left: 80px;
+        }
+        
+        .tb2{
+            border-bottom:2px solid  black ;
+        }
+        .sp{
+            text-align: right;
+            margin-left: 45px;
+            /* border: 1PX solid black; */
+        }
+        h6{
+           
+             border-bottom: 2px solid rgb(99, 97, 97); 
+        }
+        .p1{
+            font-size: smaller;
+        }
+        .b1{
+           font-size: 80px;
+           font-style: italic;
+           border: none;
+           position: absolute;
+           margin-left:140px;
+        }
+        .ul{
+            font-size: 60px;
+            /* border-bottom: 2px solid black; */
+        }
+        
+    </style>
+</head>
+<body >
+
+   <div class="d1">
+
+    <table id="tb" class="table table-borderles">
+        <tr>
+            <td style="border-right: 1px solid black;" colspan="7">
+                <b class="b1" >K<u class="ul">umar</u></b>
+           <h2 style="font-style:oblique;margin-top: 100px; font-size:40px; margin-left: 230px;">INDIA</h2>
+                <h5 style="border: none; text-align: center;">(Hydrabad Branch)</h5>
+                <h6 style="text-align: center;border: none;">#5-9-1111/4, King Kothi Road,Hydrabad -500029
+                    state code :36-TEL
+                </h6>
+            </td>
+            <td style="border: 1px solid black;"  colspan="7">
+                <table >
+                    <tr >
+                        <td style="text-align: center; padding: 5px 20px; border: 2px solid black; "   >
+                        <h6 style="border: none;">Invoice No: <span class="ml-2">S</span><span class="ml-1">7046</span>  </h6> 
+                        </td>
+                        <td  style="text-align: center; padding: 5px 20px; border: 2px solid black; ">
+                        <h6 style="border: none;">Date:<span class="ml-2">20-feb-2021</span></h6>
+                        </td>                
+                    </tr>
+                <tr style="border-bottom: 2px solid black;">
+                    <td   colspan="2"> 
+                <h5 style="border: none;"><u>Billing Address :</u></h5>
+                <h5 style="border: none; margin-left: 10px;">SILVERSTAR <span style="margin-left: 5px;">[KHM2]</span></h5> 
+                <small style="margin-left: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                </td>
+                </tr>
+                <tr >
+                    <td>
+                    <div >
+                        <small> <b>GST No  <br> Supplier:</b><span style="margin-left: 20px;">36AAVFK3</span></small> <br>
+                        <p>HSN Code : <b style="margin-left: 20px;">6205</b></p>
+                     </div>
+                    </td>
+                    <td>
+                        <div>
+                            <small> <b>GST No  <br> Receipent:</b><span style="margin-left: 20px;">36AAVFK3</span></small> <br>
+                            <p>Ref # : <b style="margin-left: 20px;">HG2968</b></p>
+                         </div>
+                        </td>
+                </tr>
+                    
+                </table>
+            </td>
+        </tr>
+        
+        <tr style="border: 2px solid black;">
+            <th scope="col">HG</th>
+            <th scope="col">#</th>
+            <th scope="col">#</th>
+            <th scope="col">Type</th>
+            <th scope="col">Box</th>
+            <th scope="col">36</th>
+            <th scope="col">38</th>
+            <th scope="col">40</th>
+            <th scope="col">42</th>
+            <th scope="col">44</th>
+            <th class="th1" scope="col">Size</th>
+            <th class="th1" scope="col">Pics</th>
+            <th class="th1" scope="col">Rate</th>
+            <th class="th1" scope="col">Amount</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1702</td>
+          <td>1790</td>
+          <td>FS</td>
+          <td colspan="3">2</td>          
+          <td >6</td>    
+          <td style="border-right: 2px solid black;" colspan="2">6</td>
+          <td class="th1">44/44</td>
+          <td class="th1">18</td>
+          <td class="th1">165</td>
+          <td class="th1">2970.00</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>1702</td>
+            <td>1790</td>
+            <td>FS</td>
+            <td colspan="4">2</td>          
+            <td >6</td>    
+            <td  style="border-right: 2px solid black;">6</td>
+            <td  class="th1">42/42</td>
+            <td class="th1">18</td>
+            <td class="th1">165</td>
+            <td class="th1">5580.00</td>
+          </tr>
+          <tr  class="tr1">
+            <td></td>
+            <td>1702</td>
+            <td>1790</td>
+            <td>FS</td>
+            <td colspan="3">2</td>          
+            <td >6</td>    
+            <td style="border-right: 2px solid black;"  colspan="2">6</td>
+            <td  class="th1">40/40</td>
+            <td  class="th1">18</td>
+            <td  class="th1">145</td>
+            <td  class="th1">2610.00</td>
+          </tr>
+          <tr>
+            <td  style="border-top: 2px solid black;"></td>
+              <td  style="border-top: 2px solid black;" colspan="3" >TL:</td>
+              <!-- <td style="border: 1px solid black;"  colspan="8"></td> -->
+              <td  style="border-top: 2px solid black;" colspan="3">6</td>
+              <td  style="border-top: 2px solid black;">12</td>
+              <td  style="border-top: 2px solid black;">18</td>
+              <td  style="border-top: 2px solid black;">6</td>
+
+          </tr>
+         
+          <tr >      
+            <td style="border: 1px solid black;" colspan="7" rowspan="2">
+                <div >
+              <div class="d2">
+                  <p>Total Boxes: <b class="b2">12</b></p>
+                  <p style="margin-left:15px">Total Pcs: <b class="b2">72</b></p>
+                </div>
+                <small>All the Goods whose MRP is not above RS.495/- <br>
+                    Reverse Change Not Applicable.
+                </small>
+           </div>
+        </td>
+           <td style="border: 1px solid black;" colspan="3" rowspan="2" >
+              <div>
+                  <small style="font-size: x-small;">Receiver's Signature with stamp</small>
+             </div>
+           </td>
+           <td style="margin: 0px; border: 1px solid black;" colspan="4" rowspan="2" >
+            
+                    <h6>Total <span style="margin-left: 81px;">:</span> <span class="sp">11,160.00</span></h6>
+                    <h6>Discount <span style="margin-left: 52px;">:</span> <span class="sp">0.00</span></h6>
+                    <h6>Freight <span style="margin-left: 65px;">:</span> <span class="sp">0.00</span></h6>
+                    <h6>Taxable value <span style="margin-left: 20px;">:</span> <span class="sp">11,160.00</span></h6>
+                
+           </td>    
+        </tr>  
+        
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        
+        <tr>         
+           <td style="border: 1px solid black;" colspan="10" rowspan="3">
+            <h5 class="text-center">TERMS AND CONDITIONS</h5>
+            <P class="p1">1. <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, voluptas.</span></P>
+            <P class="p1">2. <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, voluptas.</span></P>
+            <P class="p1">3. <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, voluptas.</span></P>
+           
+        </td>
+         <td style="border: 1px solid black;" colspan="4" >
+           
+            <h6>SGST <span style="margin-left: 80px;">:</span> <span style="text-align: end;" class="sp">279.00</span></h6>
+            <h6>CGST <span style="margin-left: 80px;">:</span> <span class="sp">279.00</span></h6>
+            <h6>IGST <span style="margin-left: 85px;">:</span> <span class="sp">0.00</span></h6>
+            <h6>Grand Total <span style="margin-left: 35px;">:</span> <span class="sp">11,718.00</span></h6>
+            <h4><small>For</small> KUMAR INDIA</h4>  
+         </td>
+            
+      </tr>  
+      </table>     
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
